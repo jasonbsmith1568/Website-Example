@@ -1,0 +1,450 @@
+html
+{ height: 100%;}
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{  	background-image: url('./bg.jpg');
+	
+	font: Kristen ITC,'trebuchet ms', arial, sans-serif;
+	color: white;
+}
+
+p
+{ 
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+h1{
+font: normal 170% Kristen ITC, 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: white;
+}
+h2, h3
+{ font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;}
+
+h2
+{ font-size: 160%;
+  padding: 9px 0 5px 0;
+  color: #009FBC;}
+
+h3
+{ font-size: 140%;
+  padding: 5px 0 0 0;}
+
+h4, h6
+{ color: #009FBC;
+  padding: 0 0 5px 0;
+  font: normal 110% arial;
+  text-transform: uppercase;}
+
+h5, h6
+{ color: #888;
+  font: normal 95% arial;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #AEB002;}
+
+a:hover
+{ text-decoration: none;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: #323534 url(header.png) no-repeat;
+	width:auto;
+  }
+  
+#logo
+{ width: auto;
+  position: relative;
+  background: transparent;}
+
+#logo_text 
+{ position: center-right;
+   
+  }
+
+#logo h1
+{ font: normal 300% Kristen ITC, 'century gothic', arial, sans-serif;
+  text-align: auto;
+  text-indent: 500px;
+  border-bottom: 10;
+  text-transform: none;
+  margin: 0 0 0 -10px;
+  }
+  
+  #logo h2
+    { font: normal 300% Kristen ITC,'century gothic', arial, sans-serif;
+  text-align: auto;
+  text-indent: 70px;
+    }
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 22px 0 0 0;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;}
+
+#logo_text h1 a .logo_colour
+{ color: lightgreen;}
+
+#logo_text a:hover .logo_colour
+{ color: #FFF;}
+
+#logo_text h2
+{ font-size: 150%;
+  padding: 4px 0 0 0;
+  color: blue;}
+
+#menubar
+{ width: 880px;
+  height: 46px;} 
+
+ul#menu
+{ float: right;
+  margin: 0;}
+
+ul#menu li
+{ float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+  background: #5A5A5A url(tab.png) no-repeat 0 0;}
+
+ul#menu li a
+{ font: normal 100% 'trebuchet ms', sans-serif;
+  display: block; 
+  float: left; 
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: #5A5A5A url(tab.png) no-repeat 100% 0;} 
+
+ul#menu li.selected a
+{ height: 20px;
+  padding: 6px 35px 5px 28px;}
+
+ul#menu li.selected
+{ margin: 1px 2px 0 0;
+  background: #00C6F0 url(tab_selected.png) no-repeat 0 0;}
+
+ul#menu li.selected a, ul#menu li.selected a:hover
+{ background: #00C6F0 url(tab_selected.png) no-repeat 100% 0;
+  color: #FFF;}
+
+ul#menu li a:hover
+{ color: #E4EC04;}
+
+#site_content
+{ width: auto;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  padding: 0 0 10px 0;
+  } 
+
+#sidebar_container
+{ float: right;
+  width: 224px;
+  margin: 50px auto;
+  
+ }
+
+.sidebar_top
+{ width: 222px;
+  height: 14px;
+  BACKGROUND-COLOR: red;
+ border-top-left-radius: 25px;
+border-top-right-radius: 25px;}
+
+.sidebar_base
+{ width: 222px;
+  height: 14px;
+  BACKGROUND-COLOR: red;
+  border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;}
+
+.sidebar
+{ float: right;
+  width: 222px;
+  margin: 0 auto;
+  }
+
+.sidebar_item
+{BACKGROUND-COLOR: lightblue;
+  padding: 0 15px;
+  width: 192px;}
+
+.sidebar li a.selected
+{ color: #444;} 
+
+.sidebar ul
+{ margin: 0;} 
+
+#content
+{ 	text-align: center;
+	width: 60%;
+	margin: 50px 125px 100px ;
+	float: top-left;
+	border: 2px solid;
+	border-radius: 25px;
+	BACKGROUND-COLOR: #25383c;
+	font-family: Kristen ITC, 'trebuchet ms', sans-serif;
+	font-size: 4;
+	
+ }
+  
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li, .sidebar ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+#footer
+{ width: 100%;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 100%;
+  height: 80px;
+  padding: 28px 0 5px 0;
+  text-align: center; 
+  background: #3B3939 url(footer.png) repeat-x;
+  color: #A8AA94;}
+
+#footer p
+{ line-height: 1.7em;
+  padding: 0 0 10px 0;}
+
+#footer a
+{ color: #A8AA94;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #FFF;
+  text-decoration: none;}
+
+.search
+{ color: #5D5D5D; 
+  border: 1px solid #BBB; 
+  width: 134px; 
+  padding: 4px; 
+  font: 100% arial, sans-serif;}
+
+#image-logo
+{
+    position:absolute;
+    top:2px;
+    width:70px;
+    height:70px;
+    z-index:10;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+#form
+{
+    min-width:auto;
+    max-width:auto;
+    margin:auto;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 5px #888888;
+    padding:20px;
+    border:4px solid #27748A;
+	BACKGROUND-COLOR: lightblue;
+}
+
+#form h2
+{
+    color:#27748A;
+    font-size:15px;
+    margin:0;
+}
+
+#form p
+{
+    font-size:15px;
+    color:#222222;
+}
+#form div
+{
+    margin-top:10px;
+}
+
+#form input, textarea, button
+{
+    width:100%;
+    border:2px solid #9ECEDB;
+    padding:3px 5px;
+	
+}
+
+#form label
+{
+    font-weight:bold;
+    font-size:24px;
+    color:#184552;
+}
+#form button
+{
+    background-color: #9ECEDB;
+    color: #184552;
+    cursor:pointer;
+}
+
+#form button:hover
+{
+    background-color: #CBEAF2;
+}
+.required
+{
+    color:#dd6666;
+}
+
+
+
+.separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;}
+  
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;}
+  
+table tr td
+{ background: #E5E5DB;
+  color: #47433F;
+  border-top: 1px solid #FFF;}
+  
+  
+}
+
+* {margin: 0 auto; padding: 0;}
+
+
+.slider{
+	width: 640px; /*Same as width of the large image*/
+	position: relative;
+	/*Instead of height we will use padding*/
+	padding-top: 320px; /*That helps bring the labels down*/
+	
+	margin: 100px auto;
+	
+	/*Lets add a shadow*/
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+
+/*Last thing remaining is to add transitions*/
+.slider>img{
+	position: absolute;
+	left: 100px; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	/*Lets add some spacing for the thumbnails*/
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	
+	/*Default style = low opacity*/
+	opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+
+/*Time to add the click effects*/
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+/*Clicking any thumbnail now should change its opacity(style)*/
+/*Time to work on the main images*/
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+/*That hides all main images at a 110% size
+On click the images will be displayed at normal size to complete the effect
+*/
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}

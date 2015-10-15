@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Thank You for the submission</title>		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
+		<script type='text/javascript' src='javascripts/jquery.tipsy.js'></script>
+		<script type='text/javascript'>
+		$(function() {
+			$('#tipsy').tipsy({fade: true, gravity: 's'});
+		});
+		</script>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="contact.html"><span class="logo_colour">Mama Bear's Daycare</span></a></h1>
+			</div>
+      </div>
+			<div class="hr"></div>
+			<h1>Thank you, we will set up a play date for you and Mama bear</h1>
+			
+						
+			<section class="progress">
+				<div class="progress-bar-container" id="tipsy" title="99% Complete"> <!-- Edit this title for the tooltip pop up -->
+					<article class="progress-bar" style="width:99%"  ></article> <!-- Edit the width percentage value to indicate progress -->
+				</div>
+				
+			</section>
+		</div>
+	</body>
+</html>
